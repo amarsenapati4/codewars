@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+background-color:rgb(10,38,64);
+}
+.logo>img{
+margin-top: 1rem;
+margin-left: 1rem;
+}
+.logo{
+    display:flex;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+nav{
+   padding-inline: 6em;
+   margin-top: 1rem;
+}
+a{
+    text-decoration: none;
+    padding-inline: 20px;
+    font-size: 24px;
+    color: white;
+}
+button{
+    background-color: rgb(255, 255, 255);
+    border: none;
+    outline: none;
+    font-size: 24px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px 28px;
+    font-weight: bolder;
+}
+button:hover{
+    background-color:rgb(184, 181, 181);
+}
+.section-container
+{
+    margin-top: 5rem;
+    display: flex;
+}
+.section-container h1{
+    color: white;
+    font-size: 40px;
+    width: 70%;
+    font-family: 'Manrope', sans-serif;
+    margin-left: 5rem;
+ letter-spacing: 2px;
+}
+.section-container p{
+    color: white;
+    font-family: 'Manrope', sans-serif;
+    font-size: 20px;
+    width: 80%;
+    margin-left: 5rem;
+}
+.image{
+    margin-right: 5rem;
+}
+.buttons{
+    display: flex;
+    gap: 2em;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+.b1{
+    background-color:rgb(38, 246, 107);
+    color: white;
+}
+.b1:hover{
+    background-color: green;
+}
+.b2{
+   background-color: rgb(10,38,64);
+   color: white;
+   border: 1px solid white;
+}
+.b2:hover{
+    background-color: grey;
+}
+.clogos{
+    margin-top: 3rem;
+   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
